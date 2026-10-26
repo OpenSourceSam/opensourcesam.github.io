@@ -1,0 +1,303 @@
+# Sam Cloutier's portfolio page. Every word, number and link on the page lives in this file.
+#
+# How to change the page:
+#   1. Edit this file.
+#   2. Run:  python build.py          (writes index.html; stops with a message if a rule is broken)
+#   3. Run:  python check.py          (opens the page in a browser at laptop and phone size; optional)
+#   4. Publish: see README.md.
+#
+# status = "ready"  the item is on the page.
+# status = "hold"   the item stays in this file but is left off the page. "python build.py --preview"
+#                   writes preview.html with held items shown and marked HOLD, for review only.
+#
+# This file is public on GitHub. Never put a client name, a deal name or an internal note in it.
+# Every number must match Sam's private "Numbers of Record" file. Rules for agents: CLAUDE.md.
+
+[site]
+first_name = "Sam"
+last_name = "Cloutier"
+kicker = ["Sales", "Toronto"]
+headline = "I sell, and I build things with AI."
+looking_for = "I'm looking for an account executive or solutions engineer role at an AI company."
+email = "samcloutier@protonmail.com"
+linkedin = "https://www.linkedin.com/in/sam-cloutier/"
+github = "https://github.com/OpenSourceSam"
+url = "https://opensourcesam.github.io/"
+description = "Sam Cloutier, a salesperson in Toronto. Work history, sales results and projects."
+avatar = "assets/img/sam.jpg"
+avatar_alt = "Cartoon of Sam Cloutier waving, in a shirt that says I love Pipeline"
+updated = "2026-10-26"
+
+# Which sections appear, in this order. Set show = false to hide a whole section.
+[sections]
+highlights = true
+experience = true
+education = false   # hold: Sam will add more about his time at university (2026-10-26)
+skills = false      # hold: needs rewriting (2026-10-26)
+projects = true
+about = true
+contact = true
+
+
+# ------------------------------------------------------------------ highlights (number cards)
+[[highlights]]
+number = "$1.67M"
+text = "in pipeline in under 7 months at MembersHealth"
+status = "hold"
+hold_reason = "Pipeline number being recalculated by Sam (2026-10-26). See the handoff."
+
+[[highlights]]
+number = "$463K"
+text = "expected to close by the end of my first year, against a $144K target"
+status = "hold"
+hold_reason = "Depends on the pipeline recalculation (2026-10-26)."
+
+[[highlights]]
+number = "220%"
+text = "of my qualified-opportunity quota in my first 60 days at D2L"
+status = "ready"
+
+[[highlights]]
+number = "168%"
+text = "of my annual quota at D2L"
+status = "ready"
+
+[[highlights]]
+number = "400%"
+text = "more meetings for the reps who used the AI outreach workflow I co-built with my manager"
+status = "ready"
+
+[[highlights]]
+number = "60%"
+text = "of my connected cold calls at D2L booked a meeting"
+status = "ready"
+
+
+# ------------------------------------------------------------------ experience (timeline, newest first)
+# show_first = how many lines show before a "More" button. 0 shows every line.
+# compact = true draws a small row (for short entries).
+
+[[jobs]]
+role = "Account Executive"
+note = "official title: Business Development Executive"
+org = "MembersHealth, virtual healthcare"
+dates = "Mar 2026 to Oct 2026"
+show_first = 4
+status = "ready"
+
+  [[jobs.lines]]
+  text = "Grew my Ontario pipeline to 30 active deals and $1.67M in under 7 months."
+  status = "hold"
+  hold_reason = "Pipeline number being recalculated (2026-10-26)."
+
+  [[jobs.lines]]
+  text = "Brought 5 deals to a final decision by boards or executives."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Had $463K expected to close by the end of my first year, against a $144K target."
+  status = "hold"
+  hold_reason = "Depends on the pipeline recalculation (2026-10-26)."
+
+  [[jobs.lines]]
+  text = "Ran the full cycle from first demo to proposal and board decision, selling to police associations within a provincial network that had endorsed our service."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Worked side by side with our account managers, Care Team and director of mental health and addiction services to find creative solutions for customers and learn what delivered the most value."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Took a construction union from first email to first meeting in 2 days, and had pricing in front of its board within a month."
+  status = "ready"
+
+[[jobs]]
+role = "Enterprise Business Development Representative"
+note = ""
+org = "D2L, education software"
+dates = "Dec 2024 to Oct 2025"
+show_first = 4
+status = "ready"
+
+  [[jobs.lines]]
+  text = "Hit 220% of my qualified-opportunity quota and 250% of my meetings quota in my first 60 days."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Promoted to Enterprise BDR by month 4, covering enterprise schools across Canada and half the U.S. and supporting up to 8 AEs."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Tracked at 168% of my annual quota and sourced $1.05M in qualified pipeline from enterprise accounts."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Co-built an AI outreach workflow and playbook with my manager, which lifted meetings 400% for the reps who adopted it and team KPIs 30%."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Trained the BDR team on the workflow and presented it to 100+ employees, including the founder, at a town hall."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Booked a meeting on about 60% of my connected cold calls."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "At the University of Texas, one of the largest and most prestigious universities in America, each college made its own buying decision. I focused on education and nursing, where teacher and nurse shortages made the need real."
+  status = "ready"
+
+[[jobs]]
+role = "Customer Success Consultant"
+note = ""
+org = "Forfeit Inc., Kitchener"
+dates = "Dec 2023 to Dec 2024"
+show_first = 0
+status = "ready"
+
+  [[jobs.lines]]
+  text = "Lifted revenue 20% in one month with retention strategies I designed and ran to cut churn."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Built ideal customer profiles from in-depth customer interviews that shaped the company's sales strategy."
+  status = "ready"
+
+[[jobs]]
+role = "Co-op"
+note = ""
+org = "House of Friendship, Kitchener"
+dates = "Jul to Sept 2022"
+show_first = 0
+compact = true
+status = "ready"
+# Description to come from Sam's Notion (Jarvis). Add lines here when it arrives.
+
+[[jobs]]
+role = "Door-to-door sales"
+note = ""
+org = "Kitchener"
+dates = "2017 to 2018"
+show_first = 0
+status = "ready"
+
+  [[jobs.lines]]
+  text = "Averaged 80 leads a week, 200% of target, and was promoted to train new hires."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Exceeded my sales quotas in door-to-door sales on 100% commission, knocking on 100+ doors a day and asking hundreds of people in person for a signature."
+  status = "ready"
+
+
+# ------------------------------------------------------------------ education (section hidden for now)
+[[education]]
+school = "University of Waterloo"
+degree = "BA Psychology, Minor in Entrepreneurship"
+dates = "2018 to 2024"
+status = "ready"
+
+
+# ------------------------------------------------------------------ skills (section hidden for now)
+[[skills]]
+title = "Starting fast in a new role"
+text = "Promoted to Enterprise BDR by month 4 at D2L."
+status = "hold"
+
+[[skills]]
+title = "Running a deal from first call to final decision"
+text = "I took 5 deals to the final stage at MembersHealth in under 7 months."
+status = "hold"
+
+
+# ------------------------------------------------------------------ projects
+# link_public = false hides the link until that repository is public. Never link a private page.
+# visual = "flow" draws the agent diagram; visual = "shots" shows the three game screenshots.
+
+[[projects]]
+title = "Second Sales Brain"
+when = "Feb 2026"
+paragraphs = [
+  "Second Sales Brain is a system I built for BDRs. It saves your best outreach and research, so each new email or call starts from what already worked.",
+  "It has four modules: outreach writing, account research, automation and cold call prep. It has setups for Google Workspace with Gemini, Microsoft with strict IT rules, ChatGPT Enterprise, and Claude with Notion.",
+]
+tags = ["Gemini", "Copilot", "ChatGPT", "Claude", "Notion"]
+link_text = "Second Sales Brain on GitHub"
+link = "https://github.com/OpenSourceSam/second-sales-brain"
+link_public = false
+visual = ""
+status = "ready"
+
+[[projects]]
+title = "AI outreach workflow at D2L"
+when = ""
+paragraphs = [
+  "Co-built with my manager. I trained the BDR team on it and presented it to 100+ employees, including the founder, at a town hall.",
+]
+tags = ["D2L", "Team training"]
+link_text = ""
+link = ""
+link_public = false
+visual = ""
+status = "ready"
+
+[[projects]]
+title = "My personal AI agent"
+when = "2026"
+paragraphs = [
+  "I set up a secure Linux server with SSH-key-only access, running a personal Claude Code agent I message through Telegram.",
+  "It connects to my Notion second brain, Todoist and Google Calendar to manage my priorities, habits, fitness and finance goals.",
+  "It holds my personal data, so I describe it here instead of showing it.",
+]
+tags = ["Claude Code", "Linux", "Telegram", "Notion", "Todoist"]
+link_text = ""
+link = ""
+link_public = false
+visual = "flow"
+status = "ready"
+
+[[projects]]
+title = "Circe's Garden, a side project"
+when = "2026"
+paragraphs = [
+  "A short story game I made for fun with Claude Code, based on Madeline Miller's novel Circe.",
+  "A script plays it in a browser and checks every step, and nine automated tests run each time I push a change.",
+]
+tags = ["Godot", "Claude Code", "Side project"]
+link_text = "Download it or read the code on GitHub"
+link = "https://github.com/OpenSourceSam/circes-garden"
+link_public = false
+visual = "shots"
+status = "ready"
+
+[[shots]]
+file = "assets/img/hermes.png"
+alt = "Circe meets Hermes on a stone terrace. The dialogue box reads: I made her what she is. That makes her mine to mend."
+
+[[shots]]
+file = "assets/img/garden.png"
+alt = "Circe stands in her fenced garden, where three beds of moly plants are marked Ready."
+
+[[shots]]
+file = "assets/img/cove.png"
+alt = "Circe faces the sea monster Scylla on a rocky shore scattered with bones."
+
+
+# ------------------------------------------------------------------ about and contact
+[about]
+paragraphs = [
+  "I live in Toronto. I started in sales knocking on doors, and I still like talking to people face to face.",
+  "I'm not naturally organized, so I'm unnaturally organized. My AI agent keeps my priorities, habits and goals in one place.",
+  "I want to win, and I want to win with my team.",
+  "I love seeing what other people are building with AI. If you're working on something fun, I'd like to hear about it.",
+]
+
+[contact]
+line = "Email me at {email} and I'll send my resume."
+
+
+# ------------------------------------------------------------------ guard rails
+# build.py stops if any of these appear on the page. Add to the list; do not remove from it.
+[guard]
+never = ["$3.2M", "$2.3M", "$2.35M", "3.7x", "3.7×", "4.6x", "4.6×", "$864K", "$1.41M", "25 U.S. states", "200+ colleagues", "built from scratch", "sole rep", "$394K"]
+banned_words = ["spearheaded", "leveraged", "orchestrated", "honed", "streamlined", "results-driven", "passionate", "seamless", "robust", "powerful", "cutting-edge", "AI-native", "game-changer", "not just"]
