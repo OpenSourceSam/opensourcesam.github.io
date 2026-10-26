@@ -2,191 +2,44 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="color-scheme" content="light">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sam Cloutier</title>
-<meta name="description" content="Sam Cloutier sells, and builds with AI. A game built with Claude Code, a personal agent system, and how he checks AI's work. Looking for a technical account executive or solutions engineer role at an AI company.">
+<meta name="description" content="Sam Cloutier, a salesperson in Toronto. Work history, sales results and projects.">
 <meta property="og:title" content="Sam Cloutier">
-<meta property="og:description" content="I sell, and I build with AI. Play the game I built, read how I checked it, see the agent system that runs my admin.">
-<meta property="og:image" content="https://opensourcesam.github.io/assets/img/garden.png">
+<meta property="og:description" content="Sam Cloutier, a salesperson in Toronto. Work history, sales results and projects.">
+<meta property="og:image" content="https://opensourcesam.github.io/assets/img/sam.jpg">
 <meta property="og:url" content="https://opensourcesam.github.io/">
 <meta property="og:type" content="website">
 <link rel="icon" href="assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Space+Grotesk:wght@500;700&display=swap">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400..700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
-<script type="importmap">{ "imports": { "three": "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.module.min.js" } }</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="top">
-  <a class="brand" href="./">SAM CLOUTIER</a>
-  <nav aria-label="Sections"><a href="#game">Game</a><a href="#cranium">Cranium</a><a href="#checks">How I check</a><a href="#about">About</a></nav>
-  <nav aria-label="Links"><a href="https://www.linkedin.com/in/sam-cloutier/">Resume (LinkedIn)</a><a href="https://github.com/OpenSourceSam">GitHub</a><a href="#contact">Contact</a></nav>
+<div class="wrap">
+<div class="top"><a class="mark" href="#top">Sam Cloutier</a><nav class="nav" aria-label="Sections"><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a></nav></div>
+<header class="hero" id="top">
+  <div class="nameblock">
+    <img class="avatar" src="assets/img/sam.jpg" alt="Cartoon of Sam Cloutier waving, in a shirt that says I love Pipeline" width="460" height="460">
+    <h1>Sam <em>Cloutier</em></h1>
+  </div>
+  <p class="kicker"><span>Sales</span><span>Toronto</span></p>
+  <p class="lead">I sell, and I build things with AI.</p>
+  <p class="sub">I&#x27;m looking for an account executive or solutions engineer role at an AI company.</p>
+  <p class="btns"><a class="btn primary" href="mailto:samcloutier@protonmail.com">Email me</a><a class="btn" href="https://www.linkedin.com/in/sam-cloutier/">LinkedIn</a><a class="btn" href="https://github.com/OpenSourceSam">GitHub</a></p>
 </header>
-
+</div>
 <main id="main">
-<section class="hero" aria-label="Introduction">
-  <canvas id="stars" aria-hidden="true"></canvas>
-  <div class="wrap">
-    <div>
-      <p class="eyebrow">Toronto · open to remote</p>
-      <h1>Sam<br>Cloutier</h1>
-      <p class="tag">I sell, and I build with AI.</p>
-      <p class="sub">I am looking for a technical account executive or solutions engineer role at an AI company. This site shows a game I built with Claude Code, the agent system that runs my admin, and how I check what AI gives me.</p>
-      <div class="btns">
-        <a class="btn btn-p" href="#game">See the game (36-second clip)</a>
-        <a class="btn btn-g" href="#checks">How I check AI's work (2 min)</a>
-        <a class="btn btn-s" href="https://www.linkedin.com/in/sam-cloutier/">Resume (LinkedIn)</a>
-        <a class="btn btn-s" href="mailto:samcloutier@protonmail.com?subject=Hello%20from%20your%20site">Hire me</a>
-      </div>
-    </div>
-    <div class="dio" id="dio">
-      <div id="diorama" aria-label="The island from Circe's Garden, shown as a small 3D model that turns slowly. Drag to turn it." role="img"></div>
-      <div class="dio-fallback" aria-hidden="true"><img src="assets/island_top.png" alt=""></div>
-      <p class="dio-note"><b>Live:</b> the island from my game. Drag to turn it.</p>
-    </div>
-  </div>
-</section>
-
-<section class="strip" id="proof" aria-label="Three facts">
-  <div class="wrap">
-    <div><div class="n">220%</div><p>of my qualified-opportunity quota in my first 60 days as a BDR, promoted to enterprise BDR by month four.</p></div>
-    <div><div class="n">20 min</div><p>of game, built with Claude Code and tested by a script that plays it from the title screen to the credits.</p></div>
-    <div><div class="n">1 agent</div><p>on a Linux server that runs my personal admin under written permission rules, every day.</p></div>
-  </div>
-</section>
-
-<section class="block" aria-labelledby="doors-h">
-  <div class="wrap">
-    <h2 id="doors-h">Pick a door</h2>
-    <div class="cards">
-      <article class="card"><img src="assets/img/garden.png" alt="The garden on Aiaia: three planted plots inside a fence, Circe standing on the path, a pig by the gate."><div class="b"><h3>Circe's Garden</h3><p>A 20-minute story game in Godot 4.5, based on Madeline Miller's novel. Open pixel art composed by code.</p><a class="more" href="#game">The clip and who did what (2 min)</a></div></article>
-      <article class="card"><div class="ph" aria-hidden="true">[ ]→[ ]</div><div class="b"><h3>Cranium</h3><p>My personal agent system, described in plain boxes. No screenshots on purpose.</p><a class="more" href="#cranium">Described below (1 min)</a></div></article>
-      <article class="card"><img src="assets/img/cove.png" alt="Scylla's cove: grey rock, a dark cave, a six-headed Scylla in the water, Circe standing near a wreck."><div class="b"><h3>How I check AI's work</h3><p>Nine headless tests and a browser playthrough that waits on the game's own log before every step.</p><a class="more" href="#checks">The checks (2 min)</a></div></article>
-      <article class="card"><img src="assets/img/menu.png" alt="The game's title screen: Circe's Garden, with the line Every witch has one spell she regrets."><div class="b"><h3>Sales</h3><p>Full cycles to boards and buying committees, and an AI outreach workflow the whole team used.</p><a class="more" href="#about">The numbers I can defend (2 min)</a></div></article>
-    </div>
-  </div>
-</section>
-
-<section class="block" aria-labelledby="roles-h">
-  <div class="wrap">
-    <h2 id="roles-h">Two kinds of reader</h2>
-    <div class="doors">
-      <div class="door">
-        <h3>If you hire for sales roles</h3>
-        <ul>
-          <li>Hit 220% of my qualified-opportunity quota in my first 60 days as a BDR, and was promoted to enterprise BDR by month four.</li>
-          <li>Brought 5 deals to a pending board or executive decision in my last role.</li>
-          <li>Co-built an AI outreach workflow with my manager, trained the sales development team on it, and presented it at a company town hall.</li>
-        </ul>
-        <a class="btn btn-g" href="#about">What I sold and how (2 min)</a>
-      </div>
-      <div class="door">
-        <h3>If you hire solutions engineers</h3>
-        <ul>
-          <li>I am a salesperson, not a trained engineer. I let Claude write most of the code and put my effort into the checks that show whether it works.</li>
-          <li>Built a 20-minute browser game with nine headless tests and a script that plays the whole game, waiting on the game's own log at every step.</li>
-          <li>Run my own Claude agent on a Linux server. I message it on Telegram, and it works in my calendar, task list and notes under written permission rules.</li>
-        </ul>
-        <a class="btn btn-g" href="#checks">How I check AI's work (2 min)</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="block" id="game" aria-labelledby="who-h">
-  <div class="wrap">
-    <h2 id="who-h">The game, and who did what</h2>
-    <div class="who">
-      <figure>
-        <img id="clip" src="assets/img/playthrough.gif" data-still="assets/img/terrace.png" alt="A short clip of the game: the title screen, the prologue, Circe walking up the island to meet Hermes, the herb lesson, planting moly.">
-        <figcaption>Recorded by the test script while it played the game, not by hand. 36 seconds, no sound.</figcaption>
-      </figure>
-      <div class="callout">
-        <h3>The honest split</h3>
-        <ul>
-          <li>I chose the book, the ending, the scope and the art direction. I set the bar each phase had to pass, and I checked the work: screenshots, dialogue, playthroughs.</li>
-          <li>Claude wrote the code, the tools and the text drafts, and ran the checks I asked for.</li>
-          <li>The point: with skill, taste and care, AI help can make something human and delightful. You do not have to take my word for it. The game is one click away, and so is everything that went wrong first.</li>
-        </ul>
-        <p style="margin:12px 0 0">What failed first: in February 2026 an image model drew the sprite sheets, and frames drifted, directions swapped and backgrounds stayed opaque. In October I switched to open Liberated Pixel Cup art composed by code, and every sheet is checked by a script.</p>
-      </div>
-    </div>
-
-    <h2 id="checks">How I check AI's work</h2>
-    <div class="doors">
-      <div class="door">
-        <h3>The game's own checks</h3>
-        <ul>
-          <li>Nine headless tests run on every change: quests, farming, crafting, the ending.</li>
-          <li>A sheet checker reads every sprite sheet: sizes, transparency, each frame inside its cell, feet on the same line.</li>
-          <li>A browser script plays the whole game from the title screen to the credits. Before each step it waits for the game's own console line, such as <code>[Dialogue] start hermes_intro</code> or <code>[GameState] Planted moly</code>, so nothing is assumed.</li>
-          <li>One command imports, tests, exports the web build and takes the screenshots on this page.</li>
-        </ul>
-      </div>
-      <div class="door">
-        <h3>What I do with the results</h3>
-        <ul>
-          <li>I read the screenshots and the dialogue myself and send back what is wrong, in plain words.</li>
-          <li>A fix is done when the script plays through again with zero problems, not when the code looks right.</li>
-          <li>Numbers I show are the smaller ones I can defend. The game's scorecard lists the gaps too.</li>
-        </ul>
-      </div>
-    </div>
-
-    <h2 id="cranium">Cranium, my personal agent system</h2>
-    <p>Described, not shown. It runs my admin so my attention is free for the rest.</p>
-    <div class="diagram">
-      <div>Telegram<small>Only my account can talk to it</small></div>
-      <div>A Claude agent on a small Linux server<small>Scheduled check-ins, written permission rules, approval gates by consequence</small></div>
-      <div>Notion, Todoist, Google Calendar<small>Where it reads and writes</small></div>
-    </div>
-    <p>The master copies of its rules live on my laptop and a script copies them to the server, so every change is reviewed before it ships. A written fix exists for the day the sign-in expires.</p>
-  </div>
-</section>
-
-<section class="block" id="about" aria-labelledby="about-h">
-  <div class="wrap">
-    <h2 id="about-h">About</h2>
-    <div class="who">
-      <div>
-        <p>I'm a salesperson in Toronto. I started in door-to-door sales, worked as a BDR at an education software company, then ran full sales cycles as an account executive selling virtual healthcare to unions and police associations. I also build things with AI: an outreach workflow I co-built with my manager, a personal agent system that runs my admin, and the game on this site. I'm looking for a technical account executive or solutions engineer role at an AI company.</p>
-        <h3>Roles</h3>
-        <ul>
-          <li>Account Executive (official title: Business Development Executive), MembersHealth, virtual healthcare.</li>
-          <li>Business Development Representative, then Enterprise BDR, D2L, education software.</li>
-          <li>Door-to-door sales, where I learned to open a conversation with a stranger.</li>
-        </ul>
-        <h3>The numbers I can defend</h3>
-        <ul>
-          <li>220% of my qualified-opportunity quota in my first 60 days as a BDR, promoted to enterprise BDR by month four.</li>
-          <li>Brought 5 deals to a pending board or executive decision in my last role.</li>
-          <li>Co-built an AI outreach workflow with my manager, trained the sales development team on it, and presented it at a company town hall of 100+ people.</li>
-        </ul>
-      </div>
-      <figure>
-        <img src="assets/img/sam.jpg" alt="Cartoon of Sam Cloutier waving, in a shirt that says I love Pipeline" style="max-width:320px">
-        <figcaption>The full history is on <a href="https://www.linkedin.com/in/sam-cloutier/">LinkedIn</a>. A PDF resume is one email away.</figcaption>
-      </figure>
-    </div>
-  </div>
-</section>
+<section aria-labelledby="results-h" style="padding-top:0"><div class="wrap"><h2 id="results-h" class="hl-h">Highlights</h2><ul class="results n4"><li class=""><strong>220%</strong><span>of my qualified-opportunity quota in my first 60 days at D2L</span></li><li class=""><strong>168%</strong><span>of my annual quota at D2L</span></li><li class=""><strong>400%</strong><span>more meetings for the reps who used the AI outreach workflow I co-built with my manager</span></li><li class=""><strong>60%</strong><span>of my connected cold calls at D2L booked a meeting</span></li></ul></div></section>
+<section id="experience" aria-labelledby="exp-h"><div class="wrap"><h2 id="exp-h">Experience</h2><div class="tl" data-fill><div class="tl-line" aria-hidden="true"><div class="tl-fill"></div></div><ol class="tl-list"><li class="tl-item reveal"><span class="tl-dot" aria-hidden="true"></span><p class="tl-date">Mar 2026 to Oct 2026</p><article class="tl-card"><h3>Account Executive <span class="note">(official title: Business Development Executive)</span></h3><p class="org">MembersHealth, virtual healthcare</p><ul><li>Brought 5 deals to a final decision by boards or executives.</li><li>Ran the full cycle from first demo to proposal and board decision, selling to police associations within a provincial network that had endorsed our service.</li><li>Worked side by side with our account managers, Care Team and director of mental health and addiction services to find creative solutions for customers and learn what delivered the most value.</li><li>Took a construction union from first email to first meeting in 2 days, and had pricing in front of its board within a month.</li></ul></article></li><li class="tl-item reveal"><span class="tl-dot" aria-hidden="true"></span><p class="tl-date">Dec 2024 to Oct 2025</p><article class="tl-card"><h3>Enterprise Business Development Representative</h3><p class="org">D2L, education software</p><ul><li>Hit <b class="fig">220%</b> of my qualified-opportunity quota and <b class="fig">250%</b> of my meetings quota in my first 60 days.</li><li>Promoted to Enterprise BDR by month 4, covering enterprise schools across Canada and half the U.S. and supporting up to 8 AEs.</li><li>Tracked at <b class="fig">168%</b> of my annual quota and sourced <b class="fig">$1.05M</b> in qualified pipeline from enterprise accounts.</li><li>Co-built an AI outreach workflow and playbook with my manager, which lifted meetings <b class="fig">400%</b> for the reps who adopted it and team KPIs <b class="fig">30%</b>.</li></ul><details class="more-lines"><summary aria-label="More about Enterprise Business Development Representative at D2L">More</summary><ul><li>Trained the BDR team on the workflow and presented it to <b class="fig">100+</b> employees, including the founder, at a town hall.</li><li>Booked a meeting on about <b class="fig">60%</b> of my connected cold calls.</li><li>At the University of Texas, one of the largest and most prestigious universities in America, each college made its own buying decision. I focused on education and nursing, where teacher and nurse shortages made the need real.</li></ul></details></article></li><li class="tl-item reveal"><span class="tl-dot" aria-hidden="true"></span><p class="tl-date">Dec 2023 to Dec 2024</p><article class="tl-card"><h3>Customer Success Consultant</h3><p class="org">Forfeit Inc., Kitchener</p><ul><li>Lifted revenue <b class="fig">20%</b> in one month with retention strategies I designed and ran to cut churn.</li><li>Built ideal customer profiles from in-depth customer interviews that shaped the company&#x27;s sales strategy.</li></ul></article></li><li class="tl-item reveal compact"><span class="tl-dot" aria-hidden="true"></span><p class="tl-date">Jul to Sept 2022</p><article class="tl-card"><h3>Co-op</h3><p class="org">House of Friendship, Kitchener</p></article></li><li class="tl-item reveal"><span class="tl-dot" aria-hidden="true"></span><p class="tl-date">2017 to 2018</p><article class="tl-card"><h3>Door-to-door sales</h3><p class="org">Kitchener</p><ul><li>Averaged 80 leads a week, <b class="fig">200%</b> of target, and was promoted to train new hires.</li><li>Exceeded my sales quotas in door-to-door sales on <b class="fig">100%</b> commission, knocking on <b class="fig">100+</b> doors a day and asking hundreds of people in person for a signature.</li></ul></article></li></ol></div></div></section>
+<section id="projects" aria-labelledby="proj-h"><div class="wrap"><h2 id="proj-h">Projects</h2><div class="projects"><article class="project reveal novis"><div class="txt"><span class="when">Feb 2026</span><h3>Second Sales Brain</h3><p>Second Sales Brain is a system I built for BDRs. It saves your best outreach and research, so each new email or call starts from what already worked.</p><p>It has four modules: outreach writing, account research, automation and cold call prep. It has setups for Google Workspace with Gemini, Microsoft with strict IT rules, ChatGPT Enterprise, and Claude with Notion.</p><ul class="tags" aria-label="Tools and topics"><li>Gemini</li><li>Copilot</li><li>ChatGPT</li><li>Claude</li><li>Notion</li></ul></div></article><article class="project reveal novis"><div class="txt"><h3>AI outreach workflow at D2L</h3><p>Co-built with my manager. I trained the BDR team on it and presented it to 100+ employees, including the founder, at a town hall.</p><ul class="tags" aria-label="Tools and topics"><li>D2L</li><li>Team training</li></ul></div></article><article class="project reveal"><div class="txt"><span class="when">2026</span><h3>My personal AI agent</h3><p>I set up a secure Linux server with SSH-key-only access, running a personal Claude Code agent I message through Telegram.</p><p>It connects to my Notion second brain, Todoist and Google Calendar to manage my priorities, habits, fitness and finance goals.</p><p>It holds my personal data, so I describe it here instead of showing it.</p><ul class="tags" aria-label="Tools and topics"><li>Claude Code</li><li>Linux</li><li>Telegram</li><li>Notion</li><li>Todoist</li></ul></div><div class="vis"><div class="viz viz-flow" aria-hidden="true"><span>Telegram</span><i>&darr;</i><span class="core">Claude Code agent on my Linux server</span><i>&darr;</i><span class="row"><em>Notion</em><em>Todoist</em><em>Google Calendar</em></span></div></div></article><article class="project reveal game"><div class="txt"><span class="when">2026</span><h3>Circe&#x27;s Garden, a side project</h3><p>A short story game I made for fun with Claude Code, based on Madeline Miller&#x27;s novel Circe.</p><p>A script plays it in a browser and checks every step, and nine automated tests run each time I push a change.</p><ul class="tags" aria-label="Tools and topics"><li>Godot</li><li>Claude Code</li><li>Side project</li></ul></div><div class="vis"><div class="shots"><img src="assets/img/hermes.png" alt="Circe meets Hermes on a stone terrace. The dialogue box reads: I made her what she is. That makes her mine to mend." width="810" height="930"><img src="assets/img/garden.png" alt="Circe stands in her fenced garden, where three beds of moly plants are marked Ready." width="810" height="930"><img src="assets/img/cove.png" alt="Circe faces the sea monster Scylla on a rocky shore scattered with bones." width="810" height="930"></div></div></article></div></div></section>
+<section id="about" aria-labelledby="about-h"><div class="wrap"><h2 id="about-h">About</h2><div class="about" style="margin-top:1.5rem"><img src="assets/img/sam.jpg" alt="Cartoon of Sam Cloutier waving, in a shirt that says I love Pipeline" width="460" height="460"><div><p>I live in Toronto. I started in sales knocking on doors, and I still like talking to people face to face.</p><p>I&#x27;m not naturally organized, so I&#x27;m unnaturally organized. My AI agent keeps my priorities, habits and goals in one place.</p><p>I want to win, and I want to win with my team.</p><p>I love seeing what other people are building with AI. If you&#x27;re working on something fun, I&#x27;d like to hear about it.</p></div></div></div></section>
+<section id="contact" aria-labelledby="contact-h"><div class="wrap"><div class="contact-box"><h2 id="contact-h">Contact</h2><p class="contact-line">Email me at <a href="mailto:samcloutier@protonmail.com">samcloutier@protonmail.com</a> and I&#x27;ll send my resume.</p><p class="contact-links"><a href="https://www.linkedin.com/in/sam-cloutier/">LinkedIn</a><a href="https://github.com/OpenSourceSam">GitHub</a></p></div></div></section>
 </main>
-
-<footer id="contact">
-  <div class="wrap">
-    <div>
-      <p><a href="mailto:samcloutier@protonmail.com">samcloutier@protonmail.com</a> · Toronto, open to remote</p>
-      <p><a href="https://www.linkedin.com/in/sam-cloutier/">LinkedIn</a> · <a href="https://github.com/OpenSourceSam">GitHub</a></p>
-    </div>
-    <div>
-      <p>Built by hand in HTML, CSS and JavaScript. The only library is three.js, for the island.</p>
-      <p>No cookies, no tracking. Last updated 2026-10-26.</p>
-    </div>
-  </div>
-</footer>
-
+<footer><div class="wrap">Toronto. Last updated 2026-10-26.</div></footer>
 <script src="assets/site.js"></script>
-<script type="module" src="assets/diorama.js"></script>
 </body>
 </html>
