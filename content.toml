@@ -23,10 +23,10 @@ email = "samcloutier@protonmail.com"
 linkedin = "https://www.linkedin.com/in/sam-cloutier/"
 github = "https://github.com/OpenSourceSam"
 url = "https://opensourcesam.github.io/"
-description = "Sam Cloutier, a salesperson in Toronto. Work history, sales results and projects."
+description = "Sam Cloutier, a salesperson in Toronto, looking for an account executive or solutions engineer role at an AI company. Sales results, work history and projects."
 avatar = "assets/img/sam.jpg"
 avatar_alt = "Cartoon of Sam Cloutier waving, in a shirt that says I love Pipeline"
-updated = "2026-10-26"
+updated = "2026-10-27"
 
 # Which sections appear, in this order. Set show = false to hide a whole section.
 [sections]
@@ -100,7 +100,7 @@ status = "ready"
   hold_reason = "Depends on the pipeline recalculation (2026-10-26)."
 
   [[jobs.lines]]
-  text = "Ran the full cycle from first demo to proposal and board decision, selling to police associations within a provincial network that had endorsed our service."
+  text = "Ran the full cycle from first demo to proposal and board decision, selling to police associations and trade unions across Ontario."
   status = "ready"
 
   [[jobs.lines]]
@@ -144,15 +144,15 @@ status = "ready"
   status = "ready"
 
   [[jobs.lines]]
-  text = "At the University of Texas, one of the largest and most prestigious universities in America, each college made its own buying decision. I focused on education and nursing, where teacher and nurse shortages made the need real."
+  text = "At the University of Texas, each college made its own buying decision. I focused on education and nursing, where teacher and nurse shortages made the need real."
   status = "ready"
 
 [[jobs]]
 role = "Customer Success Consultant"
-note = ""
-org = "Forfeit Inc., Kitchener"
-dates = "Dec 2023 to Dec 2024"
-show_first = 0
+note = "contract, part time"
+org = "Forfeit Inc., an accountability app"
+dates = "Dec 2023 to Jul 2024"
+show_first = 4
 status = "ready"
 
   [[jobs.lines]]
@@ -163,15 +163,77 @@ status = "ready"
   text = "Built ideal customer profiles from in-depth customer interviews that shaped the company's sales strategy."
   status = "ready"
 
+  [[jobs.lines]]
+  text = "I used the app myself, and I had worked AI into how I used it to stay accountable. I pitched the founders on building AI into the app. They liked the ideas, and on a second call I pitched them on hiring me as a contractor, and they agreed."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Helped with the high-level design of an AI system meant to do goal-setting coaching for many users at once."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Interviewed users and looked at their payment patterns and success rates to find the ones likely to cancel."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Coached app users one on one to set goals they could reach."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Set up quick tests of business ideas, including a mix of AI and outsourced human customer service, and tried several in one week."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Worked with the founders on the company's values and goals."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Did this part time while I worked at House of Friendship."
+  status = "ready"
+
 [[jobs]]
-role = "Co-op"
-note = ""
+role = "Emergency Shelter Support Worker, then Harm Reduction Worker"
+note = "part time"
+org = "House of Friendship, Waterloo"
+dates = "Oct 2020 to Aug 2024"
+show_first = 0
+status = "ready"
+
+  [[jobs.lines]]
+  text = "Worked directly with residents at an emergency shelter and calmed down high-risk situations, including threats and physical fights."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Managed a caseload of residents whose cases needed follow-up with several other organizations."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Started programs for residents, such as music groups and cooking classes."
+  status = "ready"
+
+[[jobs]]
+role = "Training and Development Assistant"
+note = "co-op"
 org = "House of Friendship, Kitchener"
 dates = "Jul to Sept 2022"
 show_first = 0
-compact = true
 status = "ready"
-# Description to come from Sam's Notion (Jarvis). Add lines here when it arrives.
+
+  [[jobs.lines]]
+  text = "My main project was rewriting the organization's fire safety plan."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Ran planning sessions in Miro with 20 stakeholders, including senior executives, to agree on the safety changes."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Helped build and run staff training."
+  status = "ready"
+
+  [[jobs.lines]]
+  text = "Suggested a change to how meetings ran, and my supervisor adopted it."
+  status = "ready"
 
 [[jobs]]
 role = "Door-to-door sales"
@@ -219,7 +281,7 @@ title = "Second Sales Brain"
 when = "Feb 2026"
 paragraphs = [
   "Second Sales Brain is a system I built for BDRs. It saves your best outreach and research, so each new email or call starts from what already worked.",
-  "It has four modules: outreach writing, account research, automation and cold call prep. It has setups for Google Workspace with Gemini, Microsoft with strict IT rules, ChatGPT Enterprise, and Claude with Notion.",
+  "Its four modules cover outreach writing, account research, automation and cold call prep. It has setups for Google Workspace with Gemini, Microsoft with strict IT rules, ChatGPT Enterprise, and Claude with Notion.",
 ]
 tags = ["Gemini", "Copilot", "ChatGPT", "Claude", "Notion"]
 link_text = "Second Sales Brain on GitHub"
@@ -232,7 +294,7 @@ status = "ready"
 title = "AI outreach workflow at D2L"
 when = ""
 paragraphs = [
-  "Co-built with my manager. I trained the BDR team on it and presented it to 100+ employees, including the founder, at a town hall.",
+  "I co-built it with my manager for prospecting and Salesforce admin. I trained the BDR team on it and presented it to 100+ employees, including the founder, at a town hall.",
 ]
 tags = ["D2L", "Team training"]
 link_text = ""
@@ -286,14 +348,14 @@ alt = "Circe faces the sea monster Scylla on a rocky shore scattered with bones.
 # ------------------------------------------------------------------ about and contact
 [about]
 paragraphs = [
-  "I live in Toronto. I started in sales knocking on doors, and I still like talking to people face to face.",
-  "I'm not naturally organized, so I'm unnaturally organized. My AI agent keeps my priorities, habits and goals in one place.",
-  "I want to win, and I want to win with my team.",
+  "I started in sales knocking on doors. Every sale happened on the spot, and asking people for a signature taught me how hard to push and when to pull back. That is a big part of why I ramped up so fast at D2L.",
+  "I'm not naturally organized, so I'm unnaturally organized. My AI agent keeps my priorities, habits and goals in one place. I also still use Forfeit, which charges me real money if I miss an item on my daily checklist.",
+  "I want to win with my team. AI is so new that nobody has it all figured out, so the teams that share what they learn quickly get ahead. When I find something that works, I share it, and that genuinely fills my cup.",
   "I love seeing what other people are building with AI. If you're working on something fun, I'd like to hear about it.",
 ]
 
 [contact]
-line = "Email me at {email} and I'll send my resume."
+line = "Email me at {email} to set up a call or get my resume."
 
 
 # ------------------------------------------------------------------ guard rails
