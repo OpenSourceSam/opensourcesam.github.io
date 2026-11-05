@@ -322,27 +322,27 @@ status = "ready"
 title = "Circe's Garden, a side project"
 when = "2026"
 paragraphs = [
-  "A short story game I made for fun with Claude Code, based on Madeline Miller's novel Circe.",
-  "A script plays it in a browser and checks every step, and nine automated tests run each time I push a change.",
+  "A short story game I made with Claude Code as a gift for a friend, based on Madeline Miller's novel Circe. You can play it in your browser.",
+  "A script plays it in a browser and checks every step, and nine automated tests check the quest logic.",
 ]
 tags = ["Godot", "Claude Code", "Side project"]
-link_text = "Download it or read the code on GitHub"
+link_text = "Play it, or read how I made it, on GitHub"
 link = "https://github.com/OpenSourceSam/circes-garden"
-link_public = false
+link_public = true
 visual = "shots"
 status = "ready"
 
 [[shots]]
-file = "assets/img/hermes.png"
-alt = "Circe meets Hermes on a stone terrace. The dialogue box reads: I made her what she is. That makes her mine to mend."
+file = "assets/img/circe-prologue.png"
+alt = "The prologue: Circe stands on a cliff at sunset. The text reads: I am Circe, daughter of the sun."
 
 [[shots]]
-file = "assets/img/garden.png"
-alt = "Circe stands in her fenced garden, where three beds of moly plants are marked Ready."
+file = "assets/img/circe-island.png"
+alt = "Circe on the island of Aiaia, below Hermes on his stone terrace."
 
 [[shots]]
-file = "assets/img/cove.png"
-alt = "Circe faces the sea monster Scylla on a rocky shore scattered with bones."
+file = "assets/img/circe-lesson.png"
+alt = "Hermes' herb lesson: a nightshade plant on a cream card, with three answers to choose from."
 
 
 # ------------------------------------------------------------------ about and contact
