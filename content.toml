@@ -286,7 +286,7 @@ paragraphs = [
 tags = ["Gemini", "Copilot", "ChatGPT", "Claude", "Notion"]
 link_text = "Second Sales Brain on GitHub"
 link = "https://github.com/OpenSourceSam/second-sales-brain"
-link_public = false
+link_public = true
 visual = ""
 status = "ready"
 
